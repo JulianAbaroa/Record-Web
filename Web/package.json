@@ -1,0 +1,6 @@
+{
+  "name": "functions",
+  "dependencies": {
+    "@octokit/rest": "^19.0.7"
+  }
+}

@@ -1,0 +1,33 @@
+/*
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Methods: GET, OPTIONS
+  Access-Control-Allow-Headers: *
+
+/players_manifest.json
+  Access-Control-Allow-Origin: *
+
+/UsersData/*
+  Access-Control-Allow-Origin: *
+  
+/Build/*.br
+  Content-Encoding: br
+  Content-Type: application/javascript
+
+/Build/*.wasm.br
+  Content-Encoding: br
+  Content-Type: application/wasm
+
+/Build/*.data.br
+  Content-Encoding: br
+  Content-Type: application/octet-stream
+
+/Build/*.framework.js.br
+  Content-Encoding: br
+  Content-Type: application/javascript
+
+/Build/*.loader.js.br
+  Content-Encoding: br
+  Content-Type: application/javascript
+
+/*
+  Access-Control-Allow-Origin: *
