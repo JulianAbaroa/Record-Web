@@ -17,25 +17,32 @@ exports.handler = async (event) => {
     console.error("❌ JSON inválido:", err);
     return { statusCode: 400, body: "Bad Request" };
   }
-  const username = payload.username;
+
+  const { username, file } = payload;
   if (!username) {
     return { statusCode: 400, body: "Missing username" };
+  }
+  if (!file || (file !== 'add' && file !== 'remove')) {
+    return { statusCode: 400, body: "Missing or invalid file action" };
   }
 
   // Inicializa Octokit con el token de entorno
   const octokit = new Octokit({ auth: process.env.GITHUB_TOKEN });
-
   const owner = process.env.GITHUB_OWNER;
   const repo  = process.env.GITHUB_REPO;
-  const path  = process.env.REQUESTS_PATH; // e.g. "Web/data/requests.json"
+
+  // Elige ruta según acción
+  const path = file === 'add'
+    ? process.env.ADD_REQUESTS_PATH
+    : process.env.REMOVE_REQUESTS_PATH;
+
   try {
-    // 1) Obtén el contenido actual de requests.json
-    const { data: file } = await octokit.repos.getContent({
+    // 1) Obtén el contenido actual del JSON correspondiente
+    const { data: fileData } = await octokit.repos.getContent({
       owner, repo, path,
     });
 
-    // El contenido viene en base64
-    const content = Buffer.from(file.content, "base64").toString();
+    const content = Buffer.from(fileData.content, "base64").toString();
     let requests = [];
     try {
       requests = JSON.parse(content);
@@ -48,7 +55,7 @@ exports.handler = async (event) => {
     if (!requests.includes(username)) {
       requests.push(username);
     } else {
-      console.log(`⚠️ ${username} ya estaba en requests.json`);
+      console.log(`⚠️ ${username} ya estaba en ${path}`);
     }
 
     const updatedContent = Buffer.from(
@@ -60,15 +67,15 @@ exports.handler = async (event) => {
       owner,
       repo,
       path,
-      message: `chore: add ${username} to requests.json`,
+      message: `chore: ${file} ${username} in ${path}`,
       content: updatedContent,
-      sha: file.sha,
+      sha: fileData.sha,
     });
 
-    console.log(`✅ Agregado ${username} a ${path}`);
+    console.log(`✅ ${file === 'add' ? 'Agregado' : 'Marcado para eliminación'} ${username} en ${path}`);
     return {
       statusCode: 200,
-      body: JSON.stringify({ success: true, username }),
+      body: JSON.stringify({ success: true, username, file }),
     };
   } catch (err) {
     console.error("❌ Error en GitHub API:", err);
