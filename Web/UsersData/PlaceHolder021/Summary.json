@@ -1,54 +1,54 @@
 {
   "FirstType": {
     "UserGroup": "Second",
-    "TotalPoints": 867,
-    "FirstGroupPoints": 497,
-    "SecondGroupPoints": 370,
-    "TotalParticipation": 0.0657439446366782,
-    "TotalGroupParticipation": 0.15405405405405406,
-    "TypePoints": 4,
-    "TypeRestores": 4,
-    "TypeTime": 5.05
+    "TotalPoints": 1056,
+    "FirstGroupPoints": 649,
+    "SecondGroupPoints": 407,
+    "TotalParticipation": 0.11268939393939394,
+    "TotalGroupParticipation": 0.22796934865900384,
+    "TypePoints": 7,
+    "TypeRestores": 8,
+    "TypeTime": 9.55
   },
   "Fight": {
-    "Points": 57,
-    "PointsPerMinute": 0.6362790697674418,
-    "Fails": 87,
-    "FailsPerMinute": 0.9711627906976743,
-    "Supports": 3,
-    "Involvements": 147,
-    "InvolvementsPerMinute": 1.6409302325581394,
+    "Points": 119,
+    "PointsPerMinute": 0.6725063577281718,
+    "Fails": 131,
+    "FailsPerMinute": 0.7403221248940379,
+    "Supports": 5,
+    "Involvements": 255,
+    "InvolvementsPerMinute": 1.4410850522746539,
     "ConsecutivePoints": 5,
-    "KDRatio": 0.6551724137931034,
-    "KDARatio": 0.6896551724137931
+    "KDRatio": 0.9083969465648855,
+    "KDARatio": 0.9465648854961832
   },
   "Scores": {
-    "TotalScore": 3240,
-    "PointsScore": 1140,
-    "AwardsScore": 2100
+    "TotalScore": 6370,
+    "PointsScore": 2380,
+    "AwardsScore": 3990
   },
   "Awards": {
-    "TotalAwards": 63,
-    "AwardsPerPoint": 0.9824561403508771,
-    "AwardsPerMinute": 0.7032558139534884,
-    "AwardsObtainedByPoints": 56,
+    "TotalAwards": 117,
+    "AwardsPerPoint": 0.8823529411764706,
+    "AwardsPerMinute": 0.6612037298671941,
+    "AwardsObtainedByPoints": 105,
     "AwardsInfo": {
       "Types": {
-        "Assassin": 0,
-        "Assist": 3,
-        "Avenger": 2,
-        "BeatDown": 7,
-        "BullTrue": 0,
+        "Assassin": 1,
+        "Assist": 5,
+        "Avenger": 5,
+        "BeatDown": 8,
+        "BullTrue": 1,
         "CloseCall": 0,
-        "DoubleKill": 4,
-        "EMPKill": 0,
+        "DoubleKill": 6,
+        "EMPKill": 2,
         "FirstStrike": 0,
-        "FlagScore": 4,
-        "KilledFlagCarrier": 6,
-        "FlagKill": 1,
-        "GrenadeStick": 3,
+        "FlagScore": 7,
+        "KilledFlagCarrier": 14,
+        "FlagKill": 3,
+        "GrenadeStick": 5,
         "Headcase": 0,
-        "Headshot": 4,
+        "Headshot": 8,
         "Hijack": 0,
         "Inconceivable": 0,
         "Invincible": 0,
@@ -63,19 +63,19 @@
         "Killtastrophe": 0,
         "Killtrocity": 0,
         "LaserKill": 0,
-        "Pummel": 16,
+        "Pummel": 26,
         "OpenSeason": 0,
         "Overkill": 0,
         "Protector": 0,
         "Rampage": 0,
-        "ReloadThis": 2,
-        "Revenge": 4,
+        "ReloadThis": 3,
+        "Revenge": 13,
         "RunningRiot": 0,
         "ShotgunSpree": 0,
         "Showstopper": 0,
         "Skyjack": 0,
         "SliceNDice": 0,
-        "Splatter": 0,
+        "Splatter": 2,
         "SplatterSpree": 0,
         "NeedleCombineKill": 0,
         "SwordSpree": 0,
@@ -94,7 +94,7 @@
         "DreamCrusher": 0,
         "WreckingCrew": 0,
         "SniperKill": 0,
-        "Pull": 2,
+        "Pull": 3,
         "Yoink": 1,
         "Firebird": 0,
         "Unknown": 0
@@ -102,12 +102,12 @@
     }
   },
   "KeyStats": {
-    "TotalScore": 3240,
-    "TotalPlays": 2,
-    "TotalTime": 1.6191666666666664,
-    "UserYouPointedMost": "Darkgreen5454",
+    "TotalScore": 6370,
+    "TotalPlays": 3,
+    "TotalTime": 3.141944444444444,
+    "UserYouPointedMost": "JHONBAIKO",
     "UserWhoPointedYouMost": "VexerNight",
-    "FavoriteGun": "Rocket Launcher"
+    "FavoriteGun": "Fuel Rod Cannon"
   },
   "Identity": {
     "IsRequested": true,
@@ -116,16 +116,16 @@
     "Credential_2": "UNSC"
   },
   "Rivalries": {
-    "UserYouPointedMost": "Darkgreen5454",
-    "TimesYouPointedThem": 5,
-    "RatioOfYourPointsOnThem": 0.08771929824561403,
+    "UserYouPointedMost": "JHONBAIKO",
+    "TimesYouPointedThem": 8,
+    "RatioOfYourPointsOnThem": 0.06722689075630252,
     "UserWhoPointedYouMost": "VexerNight",
     "TimesTheyPointedYou": 13,
-    "RatioOfYourFailsByThem": 0.14942528735632185
+    "RatioOfYourFailsByThem": 0.09923664122137404
   },
   "Penalties": {
-    "Penaltie_1": 7,
-    "Penalties1PerFails": 0.08045977011494253,
+    "Penaltie_1": 10,
+    "Penalties1PerFails": 0.07633587786259542,
     "Penaltie_2": 0,
     "Penalties2PerPoints": 0
   },
@@ -134,25 +134,25 @@
     "Name": "Summary 2025-05-19"
   },
   "Survivability": {
-    "LivingMinutes": 89.58333333333334,
-    "TotalMinutes": 97.14999999999999,
-    "ATRatio": 0.9221135700806316
+    "LivingMinutes": 176.95,
+    "TotalMinutes": 188.51666666666665,
+    "ATRatio": 0.9386437980726726
   },
   "UserChoice": {
-    "FavoriteGun": "Rocket Launcher",
-    "FavoriteGunPoints": 13,
+    "FavoriteGun": "Fuel Rod Cannon",
+    "FavoriteGunPoints": 34,
     "FavoriteGunPointsRatio": 0.5
   },
   "PointsBreakdown": {
-    "PointsWithGuns": 26,
-    "PointsWithExplosives": 5,
-    "PointsWithHits": 23,
-    "UnknownPoints": 3,
-    "GunsPointsRatio": 0.45614035087719296,
-    "ExplosionsPointsRatio": 0.08771929824561403,
-    "HitsPointsRatio": 0.40350877192982454,
-    "UnknownPointsRatio": 0.05263157894736842,
-    "ContributionRatio": 0.3348837209302325,
-    "PointSuccessRatio": 0.3958333333333333
+    "PointsWithGuns": 68,
+    "PointsWithExplosives": 7,
+    "PointsWithHits": 36,
+    "UnknownPoints": 8,
+    "GunsPointsRatio": 0.5714285714285714,
+    "ExplosionsPointsRatio": 0.058823529411764705,
+    "HitsPointsRatio": 0.3025210084033613,
+    "UnknownPointsRatio": 0.06722689075630252,
+    "ContributionRatio": 0.35038146369030804,
+    "PointSuccessRatio": 0.476
   }
 }
