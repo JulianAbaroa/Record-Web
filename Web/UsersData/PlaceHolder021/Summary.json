@@ -1,37 +1,37 @@
 {
   "FirstType": {
-    "UserGroup": "Second",
-    "TotalPoints": 1056,
-    "FirstGroupPoints": 649,
-    "SecondGroupPoints": 407,
-    "TotalParticipation": 0.11268939393939394,
-    "TotalGroupParticipation": 0.22796934865900384,
+    "UserGroup": "First",
+    "TotalPoints": 1162,
+    "FirstGroupPoints": 681,
+    "SecondGroupPoints": 481,
+    "TotalParticipation": 0.10499139414802065,
+    "TotalGroupParticipation": 0.21903052064631956,
     "TypePoints": 7,
     "TypeRestores": 8,
-    "TypeTime": 9.55
+    "TypeTime": 9.533333333333333
   },
   "Fight": {
-    "Points": 119,
-    "PointsPerMinute": 0.6725063577281718,
-    "Fails": 131,
-    "FailsPerMinute": 0.7403221248940379,
+    "Points": 122,
+    "PointsPerMinute": 0.6805503904797323,
+    "Fails": 133,
+    "FailsPerMinute": 0.7419114912606918,
     "Supports": 5,
-    "Involvements": 255,
-    "InvolvementsPerMinute": 1.4410850522746539,
+    "Involvements": 260,
+    "InvolvementsPerMinute": 1.4503532911863148,
     "ConsecutivePoints": 5,
-    "KDRatio": 0.9083969465648855,
-    "KDARatio": 0.9465648854961832
+    "KDRatio": 0.9172932330827067,
+    "KDARatio": 0.9548872180451128
   },
   "Scores": {
-    "TotalScore": 6370,
-    "PointsScore": 2380,
-    "AwardsScore": 3990
+    "TotalScore": 6490,
+    "PointsScore": 2440,
+    "AwardsScore": 4050
   },
   "Awards": {
-    "TotalAwards": 117,
-    "AwardsPerPoint": 0.8823529411764706,
-    "AwardsPerMinute": 0.6612037298671941,
-    "AwardsObtainedByPoints": 105,
+    "TotalAwards": 120,
+    "AwardsPerPoint": 0.8852459016393442,
+    "AwardsPerMinute": 0.669393826701376,
+    "AwardsObtainedByPoints": 108,
     "AwardsInfo": {
       "Types": {
         "Assassin": 1,
@@ -63,7 +63,7 @@
         "Killtastrophe": 0,
         "Killtrocity": 0,
         "LaserKill": 0,
-        "Pummel": 26,
+        "Pummel": 29,
         "OpenSeason": 0,
         "Overkill": 0,
         "Protector": 0,
@@ -102,9 +102,9 @@
     }
   },
   "KeyStats": {
-    "TotalScore": 6370,
+    "TotalScore": 6490,
     "TotalPlays": 3,
-    "TotalTime": 3.141944444444444,
+    "TotalTime": 3.1844444444444444,
     "UserYouPointedMost": "JHONBAIKO",
     "UserWhoPointedYouMost": "VexerNight",
     "FavoriteGun": "Fuel Rod Cannon"
@@ -118,14 +118,14 @@
   "Rivalries": {
     "UserYouPointedMost": "JHONBAIKO",
     "TimesYouPointedThem": 8,
-    "RatioOfYourPointsOnThem": 0.06722689075630252,
+    "RatioOfYourPointsOnThem": 0.06557377049180328,
     "UserWhoPointedYouMost": "VexerNight",
     "TimesTheyPointedYou": 13,
-    "RatioOfYourFailsByThem": 0.09923664122137404
+    "RatioOfYourFailsByThem": 0.09774436090225563
   },
   "Penalties": {
-    "Penaltie_1": 10,
-    "Penalties1PerFails": 0.07633587786259542,
+    "Penaltie_1": 11,
+    "Penalties1PerFails": 0.08270676691729323,
     "Penaltie_2": 0,
     "Penalties2PerPoints": 0
   },
@@ -134,25 +134,25 @@
     "Name": "Summary 2025-05-19"
   },
   "Survivability": {
-    "LivingMinutes": 176.95,
-    "TotalMinutes": 188.51666666666665,
-    "ATRatio": 0.9386437980726726
+    "LivingMinutes": 179.26666666666665,
+    "TotalMinutes": 191.06666666666666,
+    "ATRatio": 0.9382414515003489
   },
   "UserChoice": {
     "FavoriteGun": "Fuel Rod Cannon",
-    "FavoriteGunPoints": 34,
-    "FavoriteGunPointsRatio": 0.5
+    "FavoriteGunPoints": 33,
+    "FavoriteGunPointsRatio": 0.4852941176470588
   },
   "PointsBreakdown": {
     "PointsWithGuns": 68,
     "PointsWithExplosives": 7,
-    "PointsWithHits": 36,
+    "PointsWithHits": 39,
     "UnknownPoints": 8,
-    "GunsPointsRatio": 0.5714285714285714,
-    "ExplosionsPointsRatio": 0.058823529411764705,
-    "HitsPointsRatio": 0.3025210084033613,
-    "UnknownPointsRatio": 0.06722689075630252,
-    "ContributionRatio": 0.35038146369030804,
-    "PointSuccessRatio": 0.476
+    "GunsPointsRatio": 0.5573770491803278,
+    "ExplosionsPointsRatio": 0.05737704918032787,
+    "HitsPointsRatio": 0.319672131147541,
+    "UnknownPointsRatio": 0.06557377049180328,
+    "ContributionRatio": 0.3542208999628115,
+    "PointSuccessRatio": 0.47843137254901963
   }
 }
