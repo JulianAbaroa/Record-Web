@@ -1,44 +1,45 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, shrink-to-fit=yes">
-    <title>Unity Web Player | Records</title>
-    <style>
-      html, body {
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        height: 100%;
-        overflow: hidden;
-      }
-      #unity-canvas {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100vw;
-        height: 100vh;
-        background: #231F20;
-      }
-    </style>
-  </head>
-  <body>
-    <canvas id="unity-canvas" tabindex="-1"></canvas>
-    <script src="Build/9d2de2697da42669d4ef95bd883e5860.loader.js"></script>
-    <script>
-      createUnityInstance(document.querySelector("#unity-canvas"), {
-        arguments: [],
-        dataUrl: "Build/3ee855560ab03763f1ddc5f8e6c7963f.data.unityweb",
-        frameworkUrl: "Build/1f716868ca21c76e39c268b6d2e967d4.framework.js.unityweb",
-        codeUrl: "Build/b57c910fd35172a0924588a59f3d3ebf.wasm.unityweb",
-        streamingAssetsUrl: "StreamingAssets",
-        companyName: "PlaceHolder",
-        productName: "Records",
-        productVersion: "1.0",
-        // matchWebGLToCanvasSize: false,
-        // devicePixelRatio: 1,
-      });
-    </script>
-  </body>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=no" />
+  <title>Unity Web Player | Records</title>
+  <style>
+    /* Que ocupen todo el espacio sin margenes */
+    html, body {
+      margin: 0; padding: 0; height: 100%; width: 100%; overflow: hidden;
+      background: #231F20;
+      text-align: center;
+    }
+    /* Canvas ocupa toda la pantalla */
+    #unity-canvas {
+      display: block; /* elimina espacio inline */
+      position: fixed;
+      top: 0; left: 0;
+      width: 100vw;
+      height: 100vh;
+      background: #231F20;
+      outline: none;
+    }
+  </style>
+</head>
+<body>
+  <canvas id="unity-canvas" tabindex="-1"></canvas>
+  <script src="Build/c503e48bd02e1e7b935bc988c2cca1b6.loader.js"></script>
+  <script>
+    var canvas = document.querySelector("#unity-canvas");
+
+    createUnityInstance(canvas, {
+      arguments: [],
+      dataUrl: "Build/0d4381b92270ddd290a9a40d8035b462.data.unityweb",
+      frameworkUrl: "Build/687387324270ece6791fc9018c658304.framework.js.unityweb",
+      codeUrl: "Build/6ec0ecd4b3e4e14371770e05ea624dc0.wasm.unityweb",
+      streamingAssetsUrl: "StreamingAssets",
+      companyName: "PlaceHolder",
+      productName: "Records",
+      productVersion: "1.0",
+    });
+  </script>
+</body>
 </html>
