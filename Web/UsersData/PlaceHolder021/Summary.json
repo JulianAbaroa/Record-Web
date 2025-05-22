@@ -1,0 +1,161 @@
+{
+  "Consent": {
+    "Permission": true
+  },
+  "FirstType": {
+    "UserGroup": "Second",
+    "TotalPoints": 2520,
+    "FirstGroupPoints": 1120,
+    "SecondGroupPoints": 1400,
+    "TotalParticipation": 0.14484126984126985,
+    "TotalGroupParticipation": 0.24092409240924093,
+    "TypePoints": 20,
+    "TypeRestores": 14,
+    "TypeTime": 27.133333333333333
+  },
+  "Fight": {
+    "Points": 365,
+    "PointsPerMinute": 0.8385663960790319,
+    "Fails": 412,
+    "FailsPerMinute": 0.9465461785878387,
+    "Supports": 31,
+    "Involvements": 808,
+    "InvolvementsPerMinute": 1.8563332822790624,
+    "ConsecutivePoints": 7,
+    "KDRatio": 0.8859223300970874,
+    "KDARatio": 0.9611650485436893
+  },
+  "Scores": {
+    "TotalScore": 22040,
+    "PointsScore": 7300,
+    "AwardsScore": 14740
+  },
+  "Awards": {
+    "TotalAwards": 445,
+    "AwardsPerPoint": 1.082191780821918,
+    "AwardsPerMinute": 1.0223617705621075,
+    "AwardsObtainedByPoints": 395,
+    "AwardsInfo": {
+      "Types": {
+        "Assassin": 5,
+        "Assist": 30,
+        "Avenger": 9,
+        "BeatDown": 16,
+        "BullTrue": 1,
+        "CloseCall": 3,
+        "DoubleKill": 16,
+        "EMPKill": 20,
+        "FirstStrike": 0,
+        "FlagScore": 20,
+        "KilledFlagCarrier": 46,
+        "FlagKill": 13,
+        "GrenadeStick": 12,
+        "Headcase": 4,
+        "Headshot": 31,
+        "Hijack": 0,
+        "Inconceivable": 0,
+        "Invincible": 0,
+        "KillFromTheGrave": 5,
+        "KillimanKijaro": 0,
+        "KillingFrenzy": 0,
+        "KillingSpree": 6,
+        "Killionaire": 0,
+        "Killjoy": 15,
+        "Killpocalypse": 0,
+        "Killtacular": 0,
+        "Killtastrophe": 0,
+        "Killtrocity": 0,
+        "LaserKill": 0,
+        "Pummel": 116,
+        "OpenSeason": 0,
+        "Overkill": 0,
+        "Protector": 5,
+        "Rampage": 0,
+        "ReloadThis": 10,
+        "Revenge": 48,
+        "RunningRiot": 0,
+        "ShotgunSpree": 0,
+        "Showstopper": 0,
+        "Skyjack": 0,
+        "SliceNDice": 0,
+        "Splatter": 3,
+        "SplatterSpree": 0,
+        "NeedleCombineKill": 0,
+        "SwordSpree": 1,
+        "TripleKill": 0,
+        "Unfrigginbelievable": 0,
+        "Untouchable": 0,
+        "VehicularManslaughter": 0,
+        "Wheelman": 0,
+        "BuckWild": 0,
+        "SundayDriver": 0,
+        "CuttingCrew": 0,
+        "StickSpree": 0,
+        "StickyFingers": 0,
+        "Corrected": 0,
+        "HammerSpree": 0,
+        "DreamCrusher": 0,
+        "WreckingCrew": 0,
+        "SniperKill": 0,
+        "Pull": 8,
+        "Yoink": 1,
+        "Firebird": 1,
+        "Unknown": 0
+      }
+    }
+  },
+  "KeyStats": {
+    "TotalScore": 22040,
+    "TotalPlays": 5,
+    "TotalTime": 7.853333333333333,
+    "UserYouPointedMost": "JHONBAIKO",
+    "UserWhoPointedYouMost": "JHONBAIKO",
+    "FavoriteGun": "Enery Sword"
+  },
+  "Identity": {
+    "Username": "PlaceHolder021",
+    "Credential_1": "021",
+    "Credential_2": "UNSC"
+  },
+  "Rivalries": {
+    "UserYouPointedMost": "JHONBAIKO",
+    "TimesYouPointedThem": 27,
+    "RatioOfYourPointsOnThem": 0.07397260273972603,
+    "UserWhoPointedYouMost": "JHONBAIKO",
+    "TimesTheyPointedYou": 23,
+    "RatioOfYourFailsByThem": 0.055825242718446605
+  },
+  "Penalties": {
+    "Penaltie_1": 36,
+    "Penalties1PerFails": 0.08737864077669903,
+    "Penaltie_2": 1,
+    "Penalties2PerPoints": 0.0027397260273972603
+  },
+  "ContextInfo": {
+    "Type": "FirstType",
+    "Name": "Summary 2025-05-22",
+    "ID": null
+  },
+  "Survivability": {
+    "LivingMinutes": 435.2666666666667,
+    "TotalMinutes": 471.19999999999993,
+    "ATRatio": 0.9237408036219583
+  },
+  "UserChoice": {
+    "FavoriteGun": "Enery Sword",
+    "FavoriteGunPoints": 50,
+    "FavoriteGunPointsRatio": 0.31446540880503143
+  },
+  "PointsBreakdown": {
+    "PointsWithGuns": 159,
+    "PointsWithExplosives": 31,
+    "PointsWithHits": 140,
+    "UnknownPoints": 35,
+    "GunsPointsRatio": 0.43561643835616437,
+    "ExplosionsPointsRatio": 0.08493150684931507,
+    "HitsPointsRatio": 0.3835616438356164,
+    "UnknownPointsRatio": 0.0958904109589041,
+    "ContributionRatio": 0.45489355184561187,
+    "PointSuccessRatio": 0.4697554697554698
+  }
+}
