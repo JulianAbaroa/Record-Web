@@ -1,0 +1,153 @@
+{
+  "Consent": {
+    "Permission": true
+  },
+  "Fight": {
+    "Points": 98,
+    "PointsPerMinute": 1.0308555399719495,
+    "Fails": 108,
+    "FailsPerMinute": 1.1360448807854138,
+    "Supports": 11,
+    "Involvements": 217,
+    "InvolvementsPerMinute": 2.282608695652174,
+    "ConsecutivePoints": 4,
+    "KDRatio": 0.9074074074074074,
+    "KDARatio": 1.0092592592592593
+  },
+  "Scores": {
+    "TotalScore": 6330,
+    "PointsScore": 1960,
+    "AwardsScore": 4370
+  },
+  "Awards": {
+    "TotalAwards": 133,
+    "AwardsPerPoint": 1.2142857142857142,
+    "AwardsPerMinute": 1.3990182328190743,
+    "AwardsObtainedByPoints": 119,
+    "AwardsInfo": {
+      "Types": {
+        "Assassin": 3,
+        "Assist": 11,
+        "Avenger": 8,
+        "BeatDown": 4,
+        "BullTrue": 0,
+        "CloseCall": 2,
+        "DoubleKill": 4,
+        "EMPKill": 12,
+        "FirstStrike": 0,
+        "FlagScore": 2,
+        "KilledFlagCarrier": 11,
+        "FlagKill": 1,
+        "GrenadeStick": 1,
+        "Headcase": 0,
+        "Headshot": 20,
+        "Hijack": 0,
+        "Inconceivable": 0,
+        "Invincible": 0,
+        "KillFromTheGrave": 2,
+        "KillimanKijaro": 0,
+        "KillingFrenzy": 0,
+        "KillingSpree": 0,
+        "Killionaire": 0,
+        "Killjoy": 7,
+        "Killpocalypse": 0,
+        "Killtacular": 0,
+        "Killtastrophe": 0,
+        "Killtrocity": 0,
+        "LaserKill": 0,
+        "Pummel": 22,
+        "OpenSeason": 0,
+        "Overkill": 0,
+        "Protector": 0,
+        "Rampage": 0,
+        "ReloadThis": 6,
+        "Revenge": 8,
+        "RunningRiot": 0,
+        "ShotgunSpree": 0,
+        "Showstopper": 0,
+        "Skyjack": 1,
+        "SliceNDice": 0,
+        "Splatter": 4,
+        "SplatterSpree": 0,
+        "NeedleCombineKill": 0,
+        "SwordSpree": 0,
+        "TripleKill": 0,
+        "Unfrigginbelievable": 0,
+        "Untouchable": 0,
+        "VehicularManslaughter": 0,
+        "Wheelman": 0,
+        "BuckWild": 0,
+        "SundayDriver": 0,
+        "CuttingCrew": 0,
+        "StickSpree": 0,
+        "StickyFingers": 0,
+        "Corrected": 0,
+        "HammerSpree": 0,
+        "DreamCrusher": 0,
+        "WreckingCrew": 0,
+        "SniperKill": 0,
+        "Pull": 3,
+        "Yoink": 0,
+        "Firebird": 1,
+        "Unknown": 0
+      }
+    }
+  },
+  "Identity": {
+    "Username": "PlaceHolder021",
+    "Credential_1": "021",
+    "Credential_2": "UNSC"
+  },
+  "FirstType": {
+    "UserGroup": "Second",
+    "TotalPoints": 1110,
+    "FirstGroupPoints": 499,
+    "SecondGroupPoints": 611,
+    "TotalParticipation": 0.08828828828828829,
+    "TotalGroupParticipation": 0.16039279869067102,
+    "TypePoints": 2,
+    "TypeRestores": 0,
+    "TypeTime": 2.033333333333333
+  },
+  "Rivalries": {
+    "UserYouPointedMost": "Kota4985",
+    "TimesYouPointedThem": 13,
+    "RatioOfYourPointsOnThem": 0.1326530612244898,
+    "UserWhoPointedYouMost": "CookieMonstr92",
+    "TimesTheyPointedYou": 28,
+    "RatioOfYourFailsByThem": 0.25925925925925924
+  },
+  "Penalties": {
+    "Penaltie_1": 17,
+    "Penalties1PerFails": 0.1574074074074074,
+    "Penaltie_2": 0,
+    "Penalties2PerPoints": 0
+  },
+  "UserChoice": {
+    "FavoriteGun": "DMR",
+    "FavoriteGunPoints": 33,
+    "FavoriteGunPointsRatio": 0.7021276595744681
+  },
+  "ContextInfo": {
+    "Type": "FirstType",
+    "Name": "Report 2025-05-23.0",
+    "ID": "771abe04-df19-9f7f-11bc-2663b4b542c7"
+  },
+  "Survivability": {
+    "LivingMinutes": 95.06666666666666,
+    "TotalMinutes": 104.5,
+    "ATRatio": 0.9097288676236045
+  },
+  "PointsBreakdown": {
+    "PointsWithGuns": 47,
+    "PointsWithExplosives": 12,
+    "PointsWithHits": 29,
+    "UnknownPoints": 10,
+    "GunsPointsRatio": 0.47959183673469385,
+    "ExplosionsPointsRatio": 0.12244897959183673,
+    "HitsPointsRatio": 0.29591836734693877,
+    "UnknownPointsRatio": 0.10204081632653061,
+    "ContributionRatio": 0.5732819074333801,
+    "PointSuccessRatio": 0.47572815533980584
+  }
+}
