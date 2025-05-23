@@ -1,44 +1,40 @@
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, shrink-to-fit=yes">
     <title>Unity Web Player | Records</title>
-    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, shrink-to-fit=yes" />
     <style>
       html, body {
         margin: 0;
         padding: 0;
-        width: 100%;
+        border: 0;
         height: 100%;
+        width: 100%;
         overflow: hidden;
-        background: #231F20;
       }
-
       canvas {
         display: block;
         width: 100vw;
         height: 100vh;
-        position: fixed;
-        top: 0;
-        left: 0;
+        background: #231F20;
       }
     </style>
   </head>
   <body>
     <canvas id="unity-canvas" tabindex="-1"></canvas>
-
-    <script src="Build/6572d7bade9b141663857366ed0360c1.loader.js"></script>
+    <script src="Build/49e245ac54a4d64f9307d913a93588ab.loader.js"></script>
     <script>
       createUnityInstance(document.querySelector("#unity-canvas"), {
         arguments: [],
-        dataUrl: "Build/eb33a80df252fed421ce76397e1ede07.data.unityweb",
-        frameworkUrl: "Build/687387324270ece6791fc9018c658304.framework.js.unityweb",
-        codeUrl: "Build/0fb620805c1109e73d3da1e7851b2174.wasm.unityweb",
+        dataUrl: "Build/59feff1fac70caa1300b10fff00d8973.data.unityweb",
+        frameworkUrl: "Build/bc439b2cb15b0b4ad2b184f862743f05.framework.js.unityweb",
+        codeUrl: "Build/c4f18e1d65a7a18e2edc46dd52bd9c0a.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "PlaceHolder",
         productName: "Records",
-        productVersion: "1.0",
+        productVersion: "1.0"
       });
     </script>
   </body>
