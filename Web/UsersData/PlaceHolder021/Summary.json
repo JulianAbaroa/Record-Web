@@ -4,37 +4,37 @@
   },
   "FirstType": {
     "UserGroup": "Second",
-    "TotalPoints": 2644,
-    "FirstGroupPoints": 1206,
-    "SecondGroupPoints": 1438,
-    "TotalParticipation": 0.13956127080181543,
-    "TotalGroupParticipation": 0.2376046361880232,
-    "TypePoints": 23,
+    "TotalPoints": 2862,
+    "FirstGroupPoints": 1275,
+    "SecondGroupPoints": 1587,
+    "TotalParticipation": 0.13626834381551362,
+    "TotalGroupParticipation": 0.2291421856639248,
+    "TypePoints": 26,
     "TypeRestores": 14,
-    "TypeTime": 29.183333333333334
+    "TypeTime": 33.75
   },
   "Fight": {
-    "Points": 369,
-    "PointsPerMinute": 0.8307692307692307,
-    "Fails": 417,
-    "FailsPerMinute": 0.9388367729831144,
+    "Points": 390,
+    "PointsPerMinute": 0.8100249238438105,
+    "Fails": 444,
+    "FailsPerMinute": 0.9221822209914151,
     "Supports": 31,
-    "Involvements": 817,
-    "InvolvementsPerMinute": 1.8393996247654782,
+    "Involvements": 865,
+    "InvolvementsPerMinute": 1.7965937413458875,
     "ConsecutivePoints": 7,
-    "KDRatio": 0.8848920863309353,
-    "KDARatio": 0.9592326139088729
+    "KDRatio": 0.8783783783783784,
+    "KDARatio": 0.9481981981981982
   },
   "Scores": {
-    "TotalScore": 22400,
-    "PointsScore": 7380,
-    "AwardsScore": 15020
+    "TotalScore": 23550,
+    "PointsScore": 7800,
+    "AwardsScore": 15750
   },
   "Awards": {
-    "TotalAwards": 452,
-    "AwardsPerPoint": 1.08130081300813,
-    "AwardsPerMinute": 1.0176360225140713,
-    "AwardsObtainedByPoints": 399,
+    "TotalAwards": 470,
+    "AwardsPerPoint": 1.0615384615384615,
+    "AwardsPerMinute": 0.9761838825810024,
+    "AwardsObtainedByPoints": 414,
     "AwardsInfo": {
       "Types": {
         "Assassin": 5,
@@ -43,15 +43,15 @@
         "BeatDown": 16,
         "BullTrue": 1,
         "CloseCall": 3,
-        "DoubleKill": 16,
-        "EMPKill": 20,
+        "DoubleKill": 17,
+        "EMPKill": 22,
         "FirstStrike": 0,
-        "FlagScore": 23,
+        "FlagScore": 26,
         "KilledFlagCarrier": 46,
-        "FlagKill": 13,
+        "FlagKill": 15,
         "GrenadeStick": 13,
         "Headcase": 4,
-        "Headshot": 32,
+        "Headshot": 34,
         "Hijack": 0,
         "Inconceivable": 0,
         "Invincible": 0,
@@ -66,19 +66,19 @@
         "Killtastrophe": 0,
         "Killtrocity": 0,
         "LaserKill": 0,
-        "Pummel": 117,
+        "Pummel": 119,
         "OpenSeason": 0,
         "Overkill": 0,
         "Protector": 5,
         "Rampage": 0,
-        "ReloadThis": 10,
-        "Revenge": 49,
+        "ReloadThis": 11,
+        "Revenge": 53,
         "RunningRiot": 0,
         "ShotgunSpree": 0,
         "Showstopper": 0,
         "Skyjack": 0,
         "SliceNDice": 0,
-        "Splatter": 3,
+        "Splatter": 4,
         "SplatterSpree": 0,
         "NeedleCombineKill": 0,
         "SwordSpree": 1,
@@ -105,9 +105,9 @@
     }
   },
   "KeyStats": {
-    "TotalScore": 22400,
-    "TotalPlays": 6,
-    "TotalTime": 8.01111111111111,
+    "TotalScore": 23550,
+    "TotalPlays": 7,
+    "TotalTime": 8.672499999999998,
     "UserYouPointedMost": "JHONBAIKO",
     "UserWhoPointedYouMost": "TheeDorkKnight",
     "FavoriteGun": "Enery Sword"
@@ -120,42 +120,42 @@
   "Rivalries": {
     "UserYouPointedMost": "JHONBAIKO",
     "TimesYouPointedThem": 27,
-    "RatioOfYourPointsOnThem": 0.07317073170731707,
+    "RatioOfYourPointsOnThem": 0.06923076923076923,
     "UserWhoPointedYouMost": "TheeDorkKnight",
     "TimesTheyPointedYou": 25,
-    "RatioOfYourFailsByThem": 0.05995203836930456
+    "RatioOfYourFailsByThem": 0.05630630630630631
   },
   "Penalties": {
-    "Penaltie_1": 36,
-    "Penalties1PerFails": 0.08633093525179857,
+    "Penaltie_1": 37,
+    "Penalties1PerFails": 0.08333333333333333,
     "Penaltie_2": 1,
-    "Penalties2PerPoints": 0.0027100271002710027
+    "Penalties2PerPoints": 0.002564102564102564
   },
   "ContextInfo": {
     "Type": "FirstType",
-    "Name": "Summary 2025-05-22",
+    "Name": "Summary 2025-05-23",
     "ID": null
   },
   "Survivability": {
-    "LivingMinutes": 444.1666666666667,
-    "TotalMinutes": 480.6666666666666,
-    "ATRatio": 0.9240638002773928
+    "LivingMinutes": 481.4666666666667,
+    "TotalMinutes": 520.3499999999999,
+    "ATRatio": 0.9252746548797286
   },
   "UserChoice": {
     "FavoriteGun": "Enery Sword",
     "FavoriteGunPoints": 50,
-    "FavoriteGunPointsRatio": 0.3125
+    "FavoriteGunPointsRatio": 0.29069767441860467
   },
   "PointsBreakdown": {
-    "PointsWithGuns": 160,
-    "PointsWithExplosives": 33,
-    "PointsWithHits": 141,
-    "UnknownPoints": 35,
-    "GunsPointsRatio": 0.43360433604336046,
-    "ExplosionsPointsRatio": 0.08943089430894309,
-    "HitsPointsRatio": 0.3821138211382114,
-    "UnknownPointsRatio": 0.0948509485094851,
-    "ContributionRatio": 0.450281425891182,
-    "PointSuccessRatio": 0.46946564885496184
+    "PointsWithGuns": 172,
+    "PointsWithExplosives": 35,
+    "PointsWithHits": 143,
+    "UnknownPoints": 40,
+    "GunsPointsRatio": 0.441025641025641,
+    "ExplosionsPointsRatio": 0.08974358974358974,
+    "HitsPointsRatio": 0.36666666666666664,
+    "UnknownPointsRatio": 0.10256410256410256,
+    "ContributionRatio": 0.43720576017723617,
+    "PointSuccessRatio": 0.4676258992805755
   }
 }
