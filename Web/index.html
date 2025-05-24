@@ -5,9 +5,8 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <title>Unity Web Player | Records</title>
 
-  <!-- Vista adaptativa: solo anchura y zoom permitido -->
-  <meta name="viewport" 
-        content="width=device-width, initial-scale=1.0, shrink-to-fit=yes">
+  <!-- Vista adaptativa -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=yes">
 
   <style>
     html, body {
@@ -15,9 +14,9 @@
       padding: 0;
       height: 100%;
       width: 100%;
-      /* Permitimos scroll si algo desborda */
       overflow: auto;
       background: #231F20;
+      text-align: left; /* Para móviles */
     }
 
     #unity-canvas {
@@ -25,7 +24,6 @@
       top: 0;
       left: 0;
       width: 100%;
-      /* La altura real se asignará por JS */
       height: 100%;
       display: block;
       background: #231F20;
@@ -35,34 +33,28 @@
 <body>
   <canvas id="unity-canvas" tabindex="-1"></canvas>
 
-  <!-- Scripts de Unity -->
-  <script src="Build/43e3cf05da4b982e6f6ced207827e89e.loader.js"></script>
-
-  <!-- Script para ajustar correctamente el canvas en móviles -->
+  <script src="Build/5ab8d2fafd2e2ac0971ee2f27d9c897c.loader.js"></script>
   <script>
-    // Ajusta el canvas al tamaño íntegro de la ventana
     function resizeUnityCanvas() {
       const canvas = document.getElementById('unity-canvas');
-      canvas.style.width  = window.innerWidth  + 'px';
+      canvas.style.width = window.innerWidth + 'px';
       canvas.style.height = window.innerHeight + 'px';
     }
 
-    // Al cargar y al redimensionar ventana
     window.addEventListener('load', resizeUnityCanvas);
     window.addEventListener('resize', resizeUnityCanvas);
 
-    // Instanciamos Unity tras ajustar tamaño inicial
     createUnityInstance(document.querySelector("#unity-canvas"), {
       arguments: [],
-      dataUrl: "Build/52c2413539bd122b2371bc763d8190a9.data.unityweb",
+      dataUrl: "Build/1db81a884b01d4a12ff054ee0d30df35.data.unityweb",
       frameworkUrl: "Build/bc439b2cb15b0b4ad2b184f862743f05.framework.js.unityweb",
-      codeUrl: "Build/95cf27cc31b420672bfd55ecacd2fa81.wasm.unityweb",
+      codeUrl: "Build/a7374c1d008f88efa6324b92ba9766b1.wasm.unityweb",
       streamingAssetsUrl: "StreamingAssets",
       companyName: "PlaceHolder",
       productName: "Records",
-      productVersion: "1.0",
+      productVersion: "1.0"
     }).then((unityInstance) => {
-      // Unity iniciado con éxito
+      // Unity iniciado correctamente
     }).catch((message) => {
       console.error(message);
     });
