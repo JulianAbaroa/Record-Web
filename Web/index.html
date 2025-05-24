@@ -3,38 +3,38 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, shrink-to-fit=yes">
     <title>Unity Web Player | Records</title>
-    <style>
-      html, body {
-        margin: 0;
-        padding: 0;
-        border: 0;
-        height: 100%;
-        width: 100%;
-        overflow: hidden;
-      }
-      canvas {
-        display: block;
-        width: 100vw;
-        height: 100vh;
-        background: #231F20;
-      }
-    </style>
   </head>
-  <body>
-    <canvas id="unity-canvas" tabindex="-1"></canvas>
-    <script src="Build/49e245ac54a4d64f9307d913a93588ab.loader.js"></script>
+  <body style="text-align: center; padding: 0; border: 0; margin: 0;">
+    <canvas id="unity-canvas" width=1280 height=720 tabindex="-1" style="width: 1280px; height: 720px; background: #231F20"></canvas>
+    <script src="Build/f48cb63b693588b87b96554af3599a4a.loader.js"></script>
     <script>
+      if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
+        // Mobile device style: fill the whole browser client area with the game canvas:
+        var meta = document.createElement('meta');
+        meta.name = 'viewport';
+        meta.content = 'width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, shrink-to-fit=yes';
+        document.getElementsByTagName('head')[0].appendChild(meta);
+
+        var canvas = document.querySelector("#unity-canvas");
+        canvas.style.width = "100%";
+        canvas.style.height = "100%";
+        canvas.style.position = "fixed";
+
+        document.body.style.textAlign = "left";
+      }
+
       createUnityInstance(document.querySelector("#unity-canvas"), {
         arguments: [],
-        dataUrl: "Build/59feff1fac70caa1300b10fff00d8973.data.unityweb",
+        dataUrl: "Build/7dd4cac311ba6e01b42912c074ce3520.data.unityweb",
         frameworkUrl: "Build/bc439b2cb15b0b4ad2b184f862743f05.framework.js.unityweb",
-        codeUrl: "Build/c4f18e1d65a7a18e2edc46dd52bd9c0a.wasm.unityweb",
+        codeUrl: "Build/c49623ae1baeaf195140dd1b6fd0095c.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "PlaceHolder",
         productName: "Records",
-        productVersion: "1.0"
+        productVersion: "1.0",
+        // matchWebGLToCanvasSize: false, // Uncomment this to separately control WebGL canvas render size and DOM element size.
+        // devicePixelRatio: 1, // Uncomment this to override low DPI rendering on high DPI displays.
       });
     </script>
   </body>
